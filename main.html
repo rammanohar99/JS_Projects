@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Color Flipper</title>
+    <style>
+        #Orange{
+            background-color: orange;
+        }
+        #Blue{
+            background-color: blue;
+        }
+        #Red{
+            background-color: red;
+        }
+        #Yellow{
+            background-color: yellow;
+        }
+        #Green{
+            background-color: green;
+        }
+        button{
+            border-radius: 5px;
+            width: 100px;
+            height: 40px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Color Flipper</h1>
+    <h2>click me to set the color as background</h2>
+    <button id="Orange" onclick="setColor('orange')">Orange</button>
+    <button id="Blue" onclick="setColor('blue')">blue</button>
+    <button id="Red" onclick="setColor('red')">Red</button>
+    <button id="Yellow" onclick="setColor('yellow')">Yellow</button>
+    <button id="Green" onclick="setColor('green')">Green</button>
+    <button onclick="randomColor()">Random</button>
+    <script src="index.js"></script>
+</body>
+</html>
